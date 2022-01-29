@@ -58,8 +58,15 @@ app.post('/api/notes', (req, res) => {
 
 // delete request
 app.delete('/api/notes/:id', (req, res) => {
-    
-})
+    const id = req.params.id
+    for (let i = 0; i < notes.length; i++) {
+        if(notes[i].id === id) {
+            notes.splice(i, 1)
+        }
+    }
+    fs.writeFileSync('./db/db.json', JSON.stringify(notes));
+    res.json(notes);
+});
 
 // listener
 app.listen(PORT, () => {
