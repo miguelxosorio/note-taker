@@ -6,7 +6,7 @@
 
 2. when i click on the link to the notes page
     - then i am presented with a page with existing notes listed in the left hand column
-    - plus empty fields to enter a new note title and the not's text in the right hand column
+    - plus empty fields to enter a new note title and the note's text in the right hand column
 
 3. when i enter a new note title and the note's text
     - then a save icon appears in the navigation at the top of the page
