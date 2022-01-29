@@ -4,15 +4,15 @@ const express = require('express');
 const path = require('path'); 
 // init express
 const app = express();
+// importing the db.json which should contain the notes
+const notes = require('./Develop/db/db.json');
+// importing the logger middleware
+const logger = require('./middleware/logger');
+
 const PORT = process.env.PORT || 3000; // looking for environment variables, called PORT or if not available, 3000
 
-const notes = [
-    {
-        title: "test title",
-        text: "test text"
-    }
-];
-
+//init middleware
+app.use(logger);
 
 // get api notes endpoint
 app.get('/api/notes', (req, res) => {
