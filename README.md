@@ -8,6 +8,7 @@
 
   ## Table of Contents
   
+  * [Link](#link)
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
@@ -15,7 +16,10 @@
   * [Questions](#questions)
   * [Resources](#resources)
 
+  ## Link
   
+  [App Link](https://notetaker-app-dev.herokuapp.com/)
+
   ## Installation
 
   To install dependencies, run the following: `npm i`
