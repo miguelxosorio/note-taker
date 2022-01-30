@@ -1,51 +1,45 @@
 # Note Taker Starter Code
 
-## Problems
-1. when i open the note taker
-    - then I am presented with a landing page with a link to a notes page
+  ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+  
+  ## Description
 
-2. when i click on the link to the notes page
-    - then i am presented with a page with existing notes listed in the left hand column
-    - plus empty fields to enter a new note title and the note's text in the right hand column
+  It's a simple Note Taker app ran on Node, Express where you can input the title of the note and the text content. Kinda like a diary? So you can create, update, delete a note.
 
-3. when i enter a new note title and the note's text
-    - then a save icon appears in the navigation at the top of the page
+  ## Table of Contents
+  
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
+  * [Resources](#resources)
 
-4. when i click on the save icon
-    - then the new note i have entered is saved and appears in the left hand column with other existing notes
+  
+  ## Installation
 
-5. when i click on an existing note in the list in the left-hand column
-    - then that note appears in the right hand column
+  To install dependencies, run the following: `npm i`
+  
+  ## Usage
 
-6. when i click on the write icon in the navigation at the top of the page
-    - then i am presented with empty fields to enter a new note title and the note's text in the right hand column
+  `git clone`the repo to your local machine, open your terminal on VS code, or use git Bash, navigate to the directory where server.js is located, run `npm i` on the command line to install dependencies, and run `npm start` to initialize the server, then open `http://localhost:3000` on your browser.
 
-We need:
-1. fs module - `done` 
+  ![Gif]()
+  * ![Screenshot]()
 
-2. html routes
-    - GET /notes 
-        - should return notes.html file
-    
-    - GET * 
-        - should return the index.html file
+  ## License
 
-3. api routes
-    - GET /api/notes 
-        - should read the db.json file 
-        - and return all saved notes as JSON
-    
-    - POST /api/notes 
-        - should receive a new note to save on the request body
-        - add it to the db.json file
-        - return the new note to the client
-        - give each note a unique id
-            - installed uuid - `done`
+  This repository is licensed under the ISC license. 
 
-4. (BONUS) DELETE notes
-    - DELETE /api/notes/:id
-        - should receive a query parameter containing the id of a note to delete
-        - in order to delete a note
-            - need to read all notes from db.json file `fs.readFile()`??
-            - remove the note with the give id property
-            - rewrite the notes to the db.json file `fs.writeFile()`??
+  ## Contributing
+
+  Please refer to the email link below to contact me for any contributions to the project.
+
+  ## Questions
+
+  Questions about this repository? Contact me at [miguel.osorio19@yahoo.com](mailto:miguel.osorio19@yahoo.com). View more of my work in GitHub at [miguelxosorio](https://github.com/miguelxosorio)
+
+  ## Resources
+  * [Alt Text]()
+  * [Alt Text]()
+  * [Shields License and Badges](https://shields.io/category/license)
