@@ -11,6 +11,7 @@
   * [Link](#link)
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Framework](#framework)
   * [License](#license)
   * [Contributing](#contributing)
   * [Questions](#questions)
@@ -29,7 +30,13 @@
   `git clone`the repo to your local machine, open your terminal on VS code, or use git Bash, navigate to the directory where server.js is located, run `npm i` on the command line to install dependencies, and run `npm start` to initialize the server, then open `http://localhost:3000` on your browser.
 
   ![Gif]()
-  * ![Screenshot]()
+  ![Screenshot]()
+  ![Screenshot]()
+
+  ## Framework
+    
+    * Node.js
+    * Express.js
 
   ## License
 
@@ -44,6 +51,6 @@
   Questions about this repository? Contact me at [miguel.osorio19@yahoo.com](mailto:miguel.osorio19@yahoo.com). View more of my work in GitHub at [miguelxosorio](https://github.com/miguelxosorio)
 
   ## Resources
-  * [Alt Text]()
-  * [Alt Text]()
+  * [Express.js Routing](https://expressjs.com/en/guide/routing.html)
+  * [Heroku Deployment](https://devcenter.heroku.com/categories/deployment)
   * [Shields License and Badges](https://shields.io/category/license)
