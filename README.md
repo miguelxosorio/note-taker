@@ -29,9 +29,9 @@
 
   `git clone`the repo to your local machine, open your terminal on VS code, or use git Bash, navigate to the directory where server.js is located, run `npm i` on the command line to install dependencies, and run `npm start` to initialize the server, then open `http://localhost:3000` on your browser.
 
-  ![Gif]()
-  ![Screenshot]()
-  ![Screenshot]()
+  ![Gif](https://github.com/miguelxosorio/note-taker/blob/main/assets/images/notetaker.gif)
+  ![Homepage](https://github.com/miguelxosorio/note-taker/blob/main/assets/images/notetakerhomepage.JPG)
+  ![Note page](https://github.com/miguelxosorio/note-taker/blob/main/assets/images/notetakernotespage.JPG)
 
   ## Framework
     
